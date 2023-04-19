@@ -35,9 +35,9 @@ This script is provided as-is and is intended for educational purposes only. The
 Author
 
 
-     •Your Name
+     •Mohamed Swisi
 
-     •Your Email Address
+     •swdenisse@yahoo.it
 
 
 License
