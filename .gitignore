@@ -1,0 +1,10 @@
+# Ownership proof and signed bundles (external artifacts)
+OWNERSHIP_PROOF
+*.bundle
+*.bundle.sig
+AirportApi_OWNERSHIP_PROOF_*.tar.gz
+AirportApi_OWNERSHIP_PROOF_*.tar.gz.gpg
+
+# Backup or temporary files (optional)
+*~
+*.bak
