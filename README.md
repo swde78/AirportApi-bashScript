@@ -1,45 +1,33 @@
-Airport TAF/METAR API
+# Airport TAF/METAR API (Bash Script)
 
-This script retrieves TAF and METAR data for an airport using the aviationweather.gov API. It prompts the user for the ICAO code of the airport and saves the data to text files in a directory specified by the user.
+This script retrieves TAF and METAR aviation weather data from the public  
+`aviationweather.gov` API using an ICAO airport code.
 
-Requirements
+## Requirements
+- Bash
+- curl
 
+## Usage
+1. Open a terminal and navigate to the script directory.
+2. Run: `./airport_api.sh`
+3. Enter the ICAO code (e.g., `KLAX`)
+4. Specify output directory and filename when prompted
 
-     •Bash
+## Output
+Saves TAF and METAR data to user-defined text files.  
+A success message shows the filenames and directory used.
 
-     •curl
+## Disclaimer
+This script is provided "as-is" for educational and demonstration purposes only.  
+The author assumes no liability for any errors, damages, or misuse.
 
+## Author
+- **Mohamed Swisi**  
+- GitHub: [@swde78](https://github.com/swde78)  
+- Email: swdenisse@yahoo.it
 
-Usage
-
-
-     •Open a terminal and navigate to the directory where the script is saved.
-
-     •Run the script using the command `./airport_api.sh`.
-
-     •Enter the ICAO code of the airport when prompted.
-
-     •Enter the directory name to save the files in when prompted.
-
-     •Enter the filename to save the data in when prompted.
-
-
-Output
-
-The script saves the TAF and METAR data to text files with names that include the user's input. The success message includes the filenames and directory where the files were saved.
-
-Disclaimer
-
-This script is provided as-is and is intended for educational purposes only. The author is not responsible for any errors or damages that may occur from the use of this script.
-
-Author
-
-
-     •Mohamed Swisi
-
-     •swdenisse@yahoo.it
-
-
-License
-
-This project is licensed under the MIT License.
+## License
+This project is **proprietary intellectual property** of Mohamed Swisi.  
+All rights reserved © 2025.  
+Unauthorized copying, modification, distribution, or use — in whole or in part —  
+is strictly prohibited without prior written permission.
